@@ -7,7 +7,7 @@ import requests
 #MONEY MARKET DATA IMPORT (FED)
 #################################################################
 
-api_key = "828f6857ffbae546735ee8460a20ab7d"
+api_key = ""
 url = f"https://api.stlouisfed.org/fred/series/observations?series_id=SOFR&api_key={api_key}&file_type=json"
 response = requests.get(url)
 data = response.json()
